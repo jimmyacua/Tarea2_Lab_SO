@@ -1,5 +1,5 @@
 public class Part extends Thread {
-    public double result;
+    private double result;
     private int inicio;
     private int end;
     private int lim;
@@ -13,18 +13,19 @@ public class Part extends Thread {
 
     @Override
     public void run() {
-        double d = 1.0/lim;
         for(int i = inicio; i<end; i++){
-            result += sumar(i*d);
+            result += sumar(i);
         }
-        result *= d;
+        result *= 4;
     }
 
     public double sumar(double ag){
-        return 4.0 /(1+ag*ag);
+        double d = (Math.pow(-1,ag))/(2*ag+1);
+        return d;
     }
 
     public double getPi(){
+
         return result;
     }
 }

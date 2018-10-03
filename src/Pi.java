@@ -5,6 +5,7 @@
 
 public class Pi {
     public static void main(String [] args) throws InterruptedException{
+        //-----------TAREA 1-------------------------------
         /*double pi = 0.0;
         double den = 1.0;
         int lim = Integer.parseInt(args[0]);
@@ -19,6 +20,8 @@ public class Pi {
         }
         pi = pi*4;
         System.out.println(pi);*/
+     //---------------------------------------------------
+
         if(args.length != 0){
             Part hilos[] = new Part[10];
             int lim = Integer.parseInt(args[0]);
