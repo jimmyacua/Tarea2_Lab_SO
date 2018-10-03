@@ -1,3 +1,8 @@
+/*
+* Para compilar usar los comandos "javac Pi.java", seguido de esto correr el programa
+* usando el comando "java Pi + num", donde num es un número grande.
+*/
+
 public class Pi {
     public static void main(String [] args) throws InterruptedException{
         /*double pi = 0.0;
