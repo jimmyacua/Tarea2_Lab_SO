@@ -1,6 +1,6 @@
 /*
 * Para compilar usar los comandos "javac Pi.java", seguido de esto correr el programa
-* usando el comando "java Pi + num", donde num es un número grande.
+* usando el comando "java Pi + num", donde num es un número grande, por ejemplo 99999999.
 */
 
 public class Pi {
